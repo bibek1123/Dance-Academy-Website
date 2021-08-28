@@ -7,6 +7,7 @@
 }
 body{
     overflow:scroll;
+    overflow-x: hidden;
 }
 #logo{
     display:flex;
