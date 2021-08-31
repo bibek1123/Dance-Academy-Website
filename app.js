@@ -17,7 +17,7 @@ var contactSchema = new mongoose.Schema({
 
   var Contact = mongoose.model('Contact', contactSchema);
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const path = require('path'); // To create views directory path:-
 
 // EXPRESS SPECIFIC STUFF:-
