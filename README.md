@@ -1,5 +1,5 @@
 # Dance-Academy-Website
-This is the Dance-Academy Website using PUG CSS JS MONGODB &amp; NODEJS!
+This is the Dance-Academy Website using PUG CSS JS & NODEJS &amp; NODEJS!
 
 ![Dance-Academy Website](https://github.com/bibek1123/Dance-Academy-Website/blob/master/Dance%20Academy%20image.png?raw=true)
 ![Dance-Academy Website](https://github.com/bibek1123/Dance-Academy-Website/blob/master/Dance%20Academy%20image2.png?raw=true)
