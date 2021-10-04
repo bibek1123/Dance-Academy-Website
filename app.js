@@ -17,7 +17,7 @@ var contactSchema = new mongoose.Schema({
 
   var Contact = mongoose.model('Contact', contactSchema);
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const path = require('path'); // To create views directory path:-
 
 // EXPRESS SPECIFIC STUFF:-
@@ -49,6 +49,6 @@ app.post('/contact', (req, res)=>{
 
 
 // START THE SERVER:-
-app.listen(port, ()=>{
-console.log(`The app successfylly started with on port ${port}`)
+app.listen(PORT, ()=>{
+console.log(`The app successfylly started with on port ${PORT}`)
 })
