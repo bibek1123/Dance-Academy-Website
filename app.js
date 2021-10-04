@@ -4,7 +4,7 @@ const app = express();  // To make app:
 const bodyparser = require('body-parser')
 
 const mongoose = require('mongoose'); // code from mongoose official docs.
-mongoose.connect('mongodb://localhost:27017/conatactDance', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost:27017/contactDance', {useNewUrlParser: true, useUnifiedTopology: true});
 
 // define mongoose schema:-
 var contactSchema = new mongoose.Schema({
